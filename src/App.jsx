@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link, HashRouter } from "react-router-dom";
 import Bio from './bio/Bio';
 import Projects from './projects/Projects';
 
@@ -12,22 +12,21 @@ function Home() {
 
 function App() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             {/* navigation */}
-            <h1>Jacob Memmott</h1>
-            <h2>Gameplay Programmer</h2>
+            <h2>Jacob Memmott - Gameplay Programmer</h2>
             <nav>
-                <Link to="/">Home</Link> | {" "}
-                <Link to="/bio">Bio</Link> | {" "}
-                <Link to="/projects">Projects</Link> | {" "}
+                <Link to="/projects" className="nav-item">Projects</Link>
+                <Link to="/bio" className="nav-item">Bio</Link>
+
             </nav>
             {/* routes */}
             <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/" element={<Projects />} />
                 <Route path="/bio" element={<Bio />} />
                 <Route path="/projects" element={<Projects />} />
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 

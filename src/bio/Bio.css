@@ -1,0 +1,39 @@
+.about {
+    display: flex;
+    flex-direction: horizontal;
+    background-color: #446644;
+    border-radius: 20px;
+    align-items: center
+}
+
+.about img {
+    border-radius: 20px;
+    max-width: 250px;
+}
+
+.about * {
+    padding: 10px;
+}
+
+
+.bio-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bio-text {
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.networking-links {
+    display: flex;
+}
+
+.networking-link img {
+    max-width: 100px;
+    padding: 5px 20px;
+}
