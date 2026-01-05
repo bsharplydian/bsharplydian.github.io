@@ -2,17 +2,30 @@
     width: 1280px;
     margin: 0;
     padding: 2rem;
+    padding-top: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.page-header {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111;
+}
+
 nav {
     display: flex;
-    width: 640px;
+    width: 100vw;
     flex-direction: horizontal;
     flex: auto;
 
+}
+
+.nav-padding {
+    min-width: 33vw;
 }
 
 .nav-item {
@@ -21,11 +34,30 @@ nav {
     background-color: #111111;
     text-align: center;
     line-height: 50px;
+    border-style: hidden hidden solid hidden;
+    border-color: #ffffff;
 }
 
-.nav-item:hover {
-    color: #cccccc;
-    background-color: #222222;
+.nav1 {
+    border-color: #aa44ff;
+    color: #cc88ff;
+}
+
+.nav1:hover {
+    border-color: #cc88ff;
+    color: #ffaaff;
+    background-color: #333;
+}
+
+.nav2 {
+    border-color: #00ffaa;
+    color: #88ffcc;
+}
+
+.nav2:hover {
+    border-color: #88ffcc;
+    color: #aaffff;
+    background-color: #333;
 }
 
 .card {

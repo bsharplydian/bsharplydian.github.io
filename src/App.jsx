@@ -14,12 +14,16 @@ function App() {
     return (
         <HashRouter>
             {/* navigation */}
-            <h2>Jacob Memmott - Gameplay Programmer</h2>
-            <nav>
-                <Link to="/projects" className="nav-item">Projects</Link>
-                <Link to="/bio" className="nav-item">Bio</Link>
+            <div className="page-header">
+                <h2>Jacob Memmott - Gameplay Programmer</h2>
+                <nav>
+                    <div className="nav-padding"></div>
+                    <Link to="/projects" className="nav-item nav1">Projects</Link>
+                    <Link to="/bio" className="nav-item nav2">Bio</Link>
+                    <div className="nav-padding"></div>
 
-            </nav>
+                </nav>
+            </div>
             {/* routes */}
             <Routes>
                 <Route path="/" element={<Projects />} />
