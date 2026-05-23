@@ -4,7 +4,7 @@ import "./App.css";
 import { Routes, Route, Link, BrowserRouter } from "react-router-dom";
 import Bio from "./bio/Bio";
 import Projects from "./projects/Projects";
-import DemoReel from "./demoreel/Demoreel";
+import DemoReel from "./demoreel/DemoReel";
 
 function Home() {
   return <h1>Home</h1>;

@@ -1,37 +1,53 @@
 .projects {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row-reverse;
+    align-items: last;
     margin-top: 20px;
 }
 
 .thumbnails {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    border-radius: 20px;
 }
 
 .thumbnail {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: left;
-    margin: 10px;
+    /* margin: 10px; */
     /* padding: 10px 0px; */
     background-color: #eee;
-    border-radius: 20px;
-    height: fit-content;
-    width: fit-content;
+    /* border-radius: 20px; */
+    height: 75px;
+    width: 300px;
 }
 
-.thumbnail img {
-    width: 250px;
-    height: auto;
-    border-radius: 20px 20px 0px 0px;
+.thumbnail:hover {
+    outline: solid #aaa;
+    cursor: default;
 }
 
-.thumbnail div {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #333;
+.thumbnail-image {
+    /* width: 250px; */
+    /* height: 170px; */
+    aspect-ratio: 1;
+    /* border-radius: 20px 20px 0px 0px; */
+}
+
+/* .thumbnail div { */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* color: #333;
     padding-left: 10px;
     padding-bottom: 10px;
-    padding-top: 5px;
+    padding-top: 5px; */
+/* } */
+
+.thumbnail-title {
+    color: #333;
+    padding-left: 10px;
+}
+.thumbnail-detail {
+    color: #777;
+    padding-left: 10px;
 }

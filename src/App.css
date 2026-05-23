@@ -6,14 +6,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'FantasqueSansM Nerd Font Mono', 'Calibri';
+  background-color: #875;
 }
 
 .page-header {
-  padding-top: 2rem;
+  padding-top: 1%;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #111;
+}
+
+.page-header h2 {
+  padding: 0rem 0rem;
+  margin: 0px 0px;
 }
 
 nav {
@@ -38,24 +45,24 @@ nav {
 }
 
 .nav1 {
-  border-color: #aa44ff;
-  color: #cc88ff;
+  border-color: #c8f;
+  color: #c8f;
 }
 
 .nav1:hover {
-  border-color: #cc88ff;
-  color: #ffaaff;
+  border-color: #faf;
+  color: #faf;
   background-color: #333;
 }
 
 .nav2 {
-  border-color: #00ffaa;
-  color: #88ffcc;
+  border-color: #8fc;
+  color: #8fc;
 }
 
 .nav2:hover {
-  border-color: #88ffcc;
-  color: #aaffff;
+  border-color: #aff;
+  color: #aff;
   background-color: #333;
 }
 
