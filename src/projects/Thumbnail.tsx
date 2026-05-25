@@ -8,7 +8,7 @@ interface Props {
 const Thumbnail = (props: Props) => {
   return (
     <div className="thumbnail" onClick={() => props.onClick()}>
-      <img className="thumbnail-image" src={props.imagePath}></img>
+      {/* <img className="thumbnail-image" src={props.imagePath}></img> */}
       <div className="thumbnail-details">
         <div className="thumbnail-title">{props.title}</div>
         <div className="thumbnail-detail">{props.engine}</div>

@@ -3,7 +3,7 @@
     flex-direction: horizontal;
     background-color: #446644;
     border-radius: 20px;
-    align-items: center
+    align-items: start;
 }
 
 .about img {
@@ -25,8 +25,8 @@
 .bio-text {
     max-width: 400px;
     padding: 20px;
-    text-align: center;
-    font-size: 23px;
+    text-align: left;
+    font-size: 20px;
 }
 
 .networking-links {

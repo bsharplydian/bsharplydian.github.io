@@ -5,14 +5,18 @@ function Bio() {
     <div className="bio-page">
       <h1 className="bio-title">Bio</h1>
       <div className="about">
-        <img src="/portrait.jpg"></img>
+        <img src="/placeholder.webp"></img>
         <p className="bio-text">
-          I am a junior studying gameplay programming at Brigham Young University, with expected graduation in 2027.
+          I'm a senior studying game engineering at Brigham Young University! I
+          expect to graduate in early 2027.
         </p>
       </div>
       <h1>Contact</h1>
       <div className="networking-links">
-        <a href="https://www.linkedin.com/in/jacob-memmott-3296331b4/" className="networking-link">
+        <a
+          href="https://www.linkedin.com/in/jacob-memmott-3296331b4/"
+          className="networking-link"
+        >
           <img src="/InBug-White.png"></img>
         </a>
         <a href="https://github.com/bsharplydian" className="networking-link">

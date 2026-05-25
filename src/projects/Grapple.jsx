@@ -85,8 +85,8 @@ const Grapple = () => {
                 a lot of linear algebra involved.
               </li>
               <img height={100} width={100} src={"/placeholder.webp"} />
-              <li>writing background music that loops perfectly</li>
-              <li>using Niagara for speed lines, trails, and sparks</li>
+              <li>background music and sound design</li>
+              <li>speed lines, trails, and sparks using Niagara</li>
               <img height={100} width={100} src={"/placeholder.webp"} />
             </ul>
             <p>

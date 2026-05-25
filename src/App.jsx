@@ -22,10 +22,10 @@ function App() {
           <Link to="/projects" className="nav-item nav1">
             Projects
           </Link>
-          <Link to="/demoreel" className="nav-item nav2">
+          {/* <Link to="/demoreel" className="nav-item nav2">
             Demo Reel
-          </Link>
-          <Link to="/bio" className="nav-item nav3">
+          </Link> */}
+          <Link to="/bio" className="nav-item nav2">
             Bio
           </Link>
           <div className="nav-padding"></div>
@@ -33,7 +33,7 @@ function App() {
       </div>
       {/* routes */}
       <Routes>
-        <Route path="/" element={<DemoReel />} />
+        <Route path="/" element={<Projects />} />
         <Route path="/bio" element={<Bio />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/demoreel" element={<DemoReel />} />
