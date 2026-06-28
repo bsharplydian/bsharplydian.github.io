@@ -8,6 +8,11 @@ const Grapple = () => {
         thumbnail=""
         content={
           <>
+            <iframe
+              width="1024"
+              height="600"
+              src="https://youtube.com/embed/pCOsosiGf4c"
+            ></iframe>
             <h2>Part 1: The Concept</h2>
             <p>
               This project started with a simple idea: I wanted to capture the
