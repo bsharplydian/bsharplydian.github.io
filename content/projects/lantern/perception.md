@@ -1,6 +1,5 @@
 ---
 title: Enemy Perception System
-date: 1794850000
 ---
 
 ## Problem: Unreal's Perception isn't Specific

@@ -1,6 +1,5 @@
 ---
 title: Lantern of Souls
-date: 1794850000
 ---
 
 ### Engineer: Enemy Behavior
