@@ -65,14 +65,14 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showScrollToTop = true
 
 [homepage]
-  layout = "hero" # valid options: page, profile, hero, card, background, landing, custom
+  layout = "profile" # valid options: page, profile, hero, card, background, landing, custom
   # layoutSwitcher = false # opt-in interactive preview of the built-in layouts
-  #homepageImage = "IMAGE.jpg" # used in: hero, and card
+  homepageImage = "bsharplydian_logo.png" # used in: hero, and card
   showRecent = false
   showRecentItems = 5
-  showMoreLink = false
-  showMoreLinkDest = "/posts/"
-  cardView = false
+  showMoreLink = true
+  showMoreLinkDest = "/projects/"
+  cardView = true
   cardViewScreenWidth = false
   layoutBackgroundBlur = false # only used when layout equals background
   disableHeroImageFilter = false # only used when layout equals hero

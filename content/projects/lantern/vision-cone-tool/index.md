@@ -3,6 +3,9 @@ title: Enemy Perception Visualizer
 weight: 1000
 ---
 
+> [!NOTE]
+> This article is about a tool I made for [this other system](../perception/index.md); I'd recommend going there first.
+
 ![Vision Cone](featured.png)
 
 ## Problem: Perception System is Hard to Visualize

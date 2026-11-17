@@ -17,7 +17,7 @@ title = "Jacob Memmott"
 [params.author]
    name = "Jacob Memmott"
    email = "jmemmott13@gmail.com"
-#   image = "static/bsharplydian_logo.png"
+   image = "bsharplydian_logo.png"
 #   imageQuality = 96
    headline = "Gameplay Engineer"
 #   bio = "A little bit about you"
