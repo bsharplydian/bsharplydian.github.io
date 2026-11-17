@@ -1,7 +1,7 @@
 ---
 title: Enemy Perception System
 ---
-
+![Guard Perception](featured.png)
 ## Problem: Unreal's Perception isn't Specific
 
 Unreal’s default perception is a simple cone shape. It fires a delegate only when something enters or exits. However, our Guards need to react more realistically by taking peripheral vision and player light emission into account.
@@ -9,6 +9,11 @@ Unreal’s default perception is a simple cone shape. It fires a delegate only w
 ## Solution: Build a Zone-Based System
 
 Define Green, Yellow, and Red zones. Notify the Guard when an object crosses between zones.
+
+> [!NOTE]
+> The green line in this screenshot indicates the vision distance for Unreal Engine's perception system, which can be seen in the in-engine screenshot above. The Green zone is the area outside the Yellow zone.
+
+![Zones](../vision-cone-tool/featured.png)
 
 ### Step 1: `GuardController` Gets Information from the Stimulus
 
