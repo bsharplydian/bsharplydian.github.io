@@ -1,4 +1,5 @@
-#### I enjoy making life easier for game designers!
+#### Making life easier for game designers
+
 <br>
 Take a look at some of the stuff I've made:
 <br>
