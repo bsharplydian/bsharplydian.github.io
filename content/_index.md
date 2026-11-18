@@ -1,3 +1,7 @@
+---
+tags: ["gameplay", "programmer", "engineer"]
+---
+
 #### Making life easier for game designers
 
 <br>

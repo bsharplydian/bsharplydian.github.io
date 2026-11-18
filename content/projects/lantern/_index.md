@@ -1,6 +1,7 @@
 ---
 title: Lantern of Souls
 summary: Year-long project created with my cohort at BYU.
+tags: ["engineering", "programming", "architecture", "behavior"]
 ---
 
 {{< figure

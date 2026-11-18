@@ -1,6 +1,7 @@
 ---
 title: Grapple Game
 summary: "A solo project: building and polishing a whiteboxed toy."
+tags: ["engineering", "design"]
 ---
 
 <figure>

@@ -1,5 +1,6 @@
 ---
 title: Implementing Pendulum Motion
+tags: ["engineering", "design"]
 ---
 
 {{< figure
@@ -8,10 +9,8 @@ title: Implementing Pendulum Motion
     caption="Extremely technical diagram from my design doc"
     >}}
 
-<!-- {{<badge>}} engineering {{</badge>}} {{<badge>}} design {{</badge>}} -->
-
 > [!NOTE]
-> I owe a thank-you to [Jamie Fristrom](https://code.tutsplus.com/swinging-physics-for-player-movement-as-seen-in-spider-man-2-and-energy-hook--gamedev-8782t) for his article on the logic involved in pendulum motion.
+> I owe a thank-you to Jamie Fristrom for [his article](https://code.tutsplus.com/swinging-physics-for-player-movement-as-seen-in-spider-man-2-and-energy-hook--gamedev-8782t) on the logic involved in pendulum motion.
 
 ### The Problem: Preserving Momentum
 
